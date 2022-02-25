@@ -1,0 +1,18 @@
+.box {
+    height: 200px;
+    width: 300px;
+    border: 1px solid red;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.box2 {
+    border: 1px solid green;
+    height: 300px;
+    width: 400px;
+}
+
+.images .logo {
+    height: 500px;
+    width: 400px;
+}
