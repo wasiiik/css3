@@ -20,6 +20,7 @@
             border-radius: 3px;
             position: relative;
             margin: 10px;
+            overflow: hidden;
         }
         
         .photo-frame .photo img {
@@ -38,6 +39,7 @@
         .photo-frame:hover .photo-ditails {
             display: block;
             background-color: #f1720abd;
+            opacity: .4;
         }
         
         .photo-frame:hover .photo-ditails h3 {
@@ -48,6 +50,11 @@
         
         .photo-frame:hover .photo-ditails p {
             color: white;
+        }
+        
+        .photo-frame:hover .photo img {
+            transform: rotate(360deg);
+            transition: transform 1s;
         }
     </style>
 </head>
